@@ -46,7 +46,7 @@ hero-img
 
 .personal-photo {
   max-height: 30%;
-  max-width: auto;
+  width: auto;
   border-radius: 100%;
   box-shadow: 5px 3px 15px 1px rgba(0,0,0,0.35);
   margin: 10px 0 10px 0;
@@ -78,7 +78,14 @@ featured-work
 }
 
 .featured-work-title {
+  text-align: center;
   min-width: 100%;
+}
+
+.divider {
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  margin: 0 0 20px 0;
 }
 
 .site-snippet {
@@ -107,12 +114,17 @@ media queries
 
 @media screen and (max-width: 770px) {
 
-  .featured-work-title {
-    text-align: center;
-  }
-
   .site-snippet {
     min-width: 100%;
     padding: 0;
+    margin: 0 0 30px 0;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .featured-work {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1450px;
   }
 }
