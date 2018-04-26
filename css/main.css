@@ -75,6 +75,7 @@ featured-work
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .featured-work-title {
@@ -89,13 +90,56 @@ featured-work
 }
 
 .site-snippet {
-  max-width: 33.3%;
+  max-width: 50%;
   text-align: center;
   padding: 15px;
 }
 
 .site-thumbnail {
   box-shadow: 5px 3px 15px 1px rgba(0,0,0,0.35);
+}
+
+/*
+*
+*
+footer
+*
+*
+*/
+
+footer {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.26);
+}
+
+.social-row {
+  padding-top: 20px;
+  font-size: 70%;
+}
+
+.logo {
+  color: white;
+}
+
+.linkedin-icon .backing {
+  color: #0077B5;
+}
+
+.github-icon .backing {
+  color: #6cc644;
+}
+
+.free-code-camp-icon .backing {
+  color: #036301;
+}
+
+.icon:hover .backing {
+  color: white;
+}
+
+.icon:hover .logo {
+  color: black;
 }
 
 /*
@@ -118,13 +162,5 @@ media queries
     min-width: 100%;
     padding: 0;
     margin: 0 0 30px 0;
-  }
-}
-
-@media screen and (min-width: 1450px) {
-  .featured-work {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1450px;
   }
 }
