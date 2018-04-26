@@ -7,6 +7,7 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 img {
@@ -20,18 +21,22 @@ header, section, article {
 /*
 *
 *
-page-header
+hero-img
 *
 *
 */
 
-.page-header {
-  text-align: right;
+.hero-img {
+  text-align: center;
+  background: url(http://via.placeholder.com/1000x500) no-repeat center/cover fixed;
+  height: 50%;
+  margin: 0;
   min-width: 100%;
+  vertical-align: center;
 }
 
 .name {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .subtitle {
@@ -42,18 +47,6 @@ page-header
   height: 0.3%;
   background: black;
   border: 0 none;
-}
-
-/*
-*
-*
-hero-img
-*
-*
-*/
-
-.hero-img-container {
-  text-align: center;
 }
 
 /*
