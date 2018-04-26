@@ -33,25 +33,34 @@ hero-img
 
 .hero-img {
   text-align: center;
-  background: url(http://via.placeholder.com/1000x500) no-repeat center/cover fixed;
-  height: 50%;
+  background: url(../img/half-moon-bay.jpg) no-repeat 45% fixed padding-box;
   margin: 0;
+  height: 60%;
   min-width: 100%;
-  vertical-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+.personal-photo {
+  max-height: 30%;
+  max-width: auto;
+  border-radius: 100%;
+  box-shadow: 5px 3px 15px 1px rgba(0,0,0,0.35);
+  margin: 10px 0 10px 0;
 }
 
 .name {
+  width: 100%;
   margin: 0;
 }
 
 .subtitle {
+  width: 100%;
   margin: 0;
-}
-
-.header-divider {
-  height: 0.3%;
-  background: black;
-  border: 0 none;
+  padding: 0 0 15px 0;
 }
 
 /*
@@ -78,6 +87,10 @@ featured-work
   padding: 15px;
 }
 
+.site-thumbnail {
+  box-shadow: 5px 3px 15px 1px rgba(0,0,0,0.35);
+}
+
 /*
 *
 *
@@ -87,13 +100,8 @@ media queries
 */
 
 @media screen and (max-width: 550px) {
-
-  h1 {
-    font-size: 1.5em
-  }
-
-  h3 {
-    font-size: 1em;
+  body {
+    font-size: 90%;
   }
 }
 
