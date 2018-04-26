@@ -107,5 +107,6 @@ media queries
 
   .site-snippet {
     min-width: 100%;
+    padding: 0;
   }
 }
