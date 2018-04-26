@@ -3,6 +3,10 @@ body html {
   height: 100%;
 }
 
+img embed object video {
+  max-width: 100%;
+}
+
 /*
 *
 *
@@ -23,4 +27,30 @@ page-header
 }
 
 .subtitle {
+}
+
+/*
+*
+*
+hero-img
+*
+*
+*/
+
+.hero-img-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
+*
+*
+featured-work
+*
+*
+*/
+
+.featured-work {
+  display: flex;
+  flex-wrap: wrap;
 }
