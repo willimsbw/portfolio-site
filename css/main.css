@@ -4,6 +4,7 @@ body html {
   display: flex;
   flex-wrap: wrap;
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 img {
@@ -20,7 +21,6 @@ page-header
 
 .page-header {
   text-align: right;
-  background: yellow;
 }
 
 .name {
@@ -32,8 +32,9 @@ page-header
 }
 
 .header-divider {
-  height: 0.2%;
+  height: 0.3%;
   background: black;
+  border: 0 none;
 }
 
 /*
@@ -45,7 +46,6 @@ hero-img
 */
 
 .hero-img-container {
-  background: green;
   text-align: center;
 }
 
@@ -58,7 +58,6 @@ featured-work
 */
 
 .featured-work {
-  background: blue;
   min-width: 100%;
   display: flex;
   flex-wrap: wrap;
