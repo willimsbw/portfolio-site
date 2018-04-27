@@ -1,4 +1,4 @@
-# Wikipedia Search Tool
+# Personal Portfolio Page
 
 index.html opens a responsive webpage that displays a portfolio of my work.
 
