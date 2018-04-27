@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -81,6 +81,7 @@ featured-work
 .featured-work-title {
   text-align: center;
   min-width: 100%;
+  font-size: 120%;
 }
 
 .divider {
