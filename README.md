@@ -31,3 +31,4 @@ who participated in this project.
 
 * Thanks to Udacity for their full stack web developer nanodegree
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), for providing this really great readme template
+* [Wh1tney](https://gist.github.com/wh1tney/2ad13aa5fbdd83f6a489), for the great directions on tricking Heroku into thinking a single-page website is a PHP app
