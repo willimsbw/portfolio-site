@@ -1,10 +1,10 @@
 # Personal Portfolio Page
 
-index.html opens a responsive webpage that displays a portfolio of my work.
+Source code for single-page webapp that tricks heroku into thinking it's a PHP webapp.
 
 ## Getting Started
 
-All you need to do is download the entire repo and open index.html to open the webpage in your default web browser.
+You can view the page this code backs at https://bcwportfolio.herokuapp.com/
 
 ### Prerequisites
 
@@ -14,6 +14,7 @@ You'll need a web browser installed.
 
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [Heroku](https://heroku.com/)
 
 ## Contributing
 
